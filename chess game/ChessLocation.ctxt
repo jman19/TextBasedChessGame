@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=row\ col
+comment0.target=ChessLocation(int,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ChessLocation\ accepts\ int\ values\ for\ row\ and\n\ int\ values\ for\ col\n
+comment1.params=
+comment1.target=int\ getRow()
+comment1.text=\n\ This\ method\ returns\ row\ as\ an\ int\ value\n
+comment2.params=
+comment2.target=int\ getCol()
+comment2.text=\n\ This\ method\ returns\ col\ as\ an\ int\ value\n
+comment3.params=row
+comment3.target=void\ setRow(int)
+comment3.text=\n\ This\ method\ sets\ row\ to\ a\ new\ value\ it\ will\ check\ to\ make\ sure\ value\ is\ in\ range\n\ returns\ nothing\n
+comment4.params=col
+comment4.target=void\ setCol(int)
+comment4.text=\n\ This\ method\ sets\ col\ will\ check\ to\ make\ sure\ it\ is\ in\ range\n\ returns\ nothing\n
+comment5.params=cp
+comment5.target=boolean\ equals(ChessLocation)
+comment5.text=\n\ This\ method\ checks\ to\ see\ if\ 2\ objects\ of\ ChessLocation\ have\ equal\ values\ for\ col\ and\ row\n\ returns\ true\ if\ they\ have\ the\ same\ values\ and\ false\ if\ not\n
+numComments=6

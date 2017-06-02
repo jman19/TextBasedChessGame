@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=player\ initial_location\ board
+comment0.target=King(java.lang.String,\ ChessLocation,\ ChessBoard)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ King\ accepts\ String\ value\ for\ the\n\ player,ChessLocation\ object\ for\ the\ pieces\ location\ \n\ and\ ChessGame\ object\ for\ the\ game\ which\ this\ piece\ belongs\ to\n
+comment1.params=destination
+comment1.target=boolean\ moveTo(ChessLocation)
+comment1.text=\n\ This\ method\ accepts\ an\ object\ of\ ChessLocation\ as\ the\ new\ location\ which\ the\ user\ wants\ to\ move\ to\n\ It\ checks\ to\ see\ if\ a\ move\ is\ legal\ by\ the\ standards\ of\ the\ King\ piece\ if\ so,\ it\ will\ move\n\ returns\ true\ if\ move\ worked\ false\ if\ it\ didnt\ work\n
+comment2.params=newLocation
+comment2.target=void\ updateThreateningLocation(ChessLocation)
+comment2.text=\n\ This\ method\ updates\ the\ places\ where\ the\ chesspiece\ is\ threating\ \n\ It\ accepts\ an\ object\ of\ Class\ ChessLocation\ \n\ Returns\ nothing\n
+comment3.params=destination
+comment3.target=java.util.ArrayList\ locationInDanger(ChessLocation)
+comment3.text=\n\ This\ method\ will\ return\ all\ enermy\ chessPiece\ it\ finds\ that\ is\ threating\ the\ king\ and\n\ return\ it\ as\ a\ arraylist,\ empty\ for\ no\ threat\n\ Accepts\ an\ object\ of\ ChessLocation\n
+comment4.params=
+comment4.target=java.util.ArrayList\ check()
+comment4.text=\n\ This\ method\ will\ return\ a\ list\ of\ chesspieces\ that\ are\ threating\ the\ king\ will\ return\ empty\ list\n\ if\ there\ are\ no\ threats\n
+numComments=5

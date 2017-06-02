@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ChessBoard()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ChessBoard\n\ Accepts\ no\ values\ it\ will\ initialize\ the\ 2d\ array\ with\ all\ null\ values\n
+comment1.params=row\ col
+comment1.target=boolean\ isPieceAt(int,\ int)
+comment1.text=\n\ this\ method\ takes\ int\ values\ for\ row\ and\ col\ and\ checks\ to\ see\ if\ a\ piece\ is\ there,\ will\ return\ false\ if\ its\ not\ and\ true\n\ if\ it\ is.\n
+comment2.params=row\ col
+comment2.target=Chesspiece\ getPieceAt(int,\ int)
+comment2.text=\n\ This\ method\ takes\ a\ int\ row\ and\ int\ col\ and\ returns\ the\ piece\ at\ that\ location\ if\ there\ is\ nothing\ there\ it\ returns\ null\n\ if\ there\ is\ a\ piece\ there\ it\ will\ return\ the\ piece\n
+comment3.params=piece\ location
+comment3.target=void\ placePieceAt(Chesspiece,\ ChessLocation)
+comment3.text=\n\ this\ method\ places\ accepts\ a\ object\ of\ Chesspiece\ and\ an\ object\ of\ Chesslocation\ \n\ it\ will\ then\ place\ the\ Chesspiece\ object\ in\ the\ 2d\ array\ at\ the\ location\ specfied\ in\ the\ Chesslocation\n\ object.\ it\ will\ replace\ whaterver\ was\ in\ that\ space\ with\ the\ Chesspiece\ followed\ by\ updating\ the\ pieces\ internal\ location\n\ returns\ nothing\n
+comment4.params=location
+comment4.target=void\ removePieceAt(ChessLocation)
+comment4.text=\n\ Accepts\ an\ object\ of\ ChessLocation\ \n\ this\ method\ removes\ a\ piece\ at\ a\ given\ location\n\ returns\ nothing\n
+comment5.params=
+comment5.target=void\ printString()
+comment5.text=\n\ this\ method\ prints\ out\ the\ board\n\ returns\ nothing\n
+comment6.params=
+comment6.target=java.util.ArrayList[]\ getBoard()
+comment6.text=\n\ This\ method\ returns\ Board\ as\ a\ Array\ containing\ arrayList\ types\n
+numComments=7

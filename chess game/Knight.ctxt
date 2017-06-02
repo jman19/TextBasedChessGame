@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=owner\ initialLocation\ board
+comment0.target=Knight(java.lang.String,\ ChessLocation,\ ChessBoard)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Knight\ accepts\ String\ value\ for\ the\n\ player,ChessLocation\ object\ for\ the\ pieces\ location\ \n\ and\ ChessGame\ object\ for\ the\ game\ which\ this\ piece\ belongs\ to\n
+comment1.params=newLocation
+comment1.target=boolean\ moveTo(ChessLocation)
+comment1.text=\n\ This\ method\ accepts\ an\ object\ of\ ChessLocation\ as\ the\ new\ location\ which\ the\ user\ wants\ to\ move\ to\n\ It\ checks\ to\ see\ if\ a\ move\ is\ legal\ by\ the\ standards\ of\ the\ knight\ piece\ if\ so,\ it\ will\ move\n\ returns\ true\ if\ move\ worked\ false\ if\ not\n
+comment2.params=newLocation
+comment2.target=void\ updateThreateningLocation(ChessLocation)
+comment2.text=\n\ This\ method\ updates\ the\ places\ where\ the\ chesspiece\ is\ threating\ \n\ It\ accepts\ an\ object\ of\ Class\ ChessLocation\ \n\ Returns\ nothing\n
+numComments=3
